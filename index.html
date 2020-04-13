@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Портфолио</title>
+  </head>
+  <body>
+    
+    <header class="header">
+      <div class="container header__container">
+        <button class="mobile-controls hamburger"></button>
+        <nav class="header__nav header__nav-mobile nav">
+          <ul class="nav__list nav__list-mobile">
+            <li class="nav__item nav__item_inline">
+              <a class="nav__link nav__link-mobile" href="#service">Услуги</a>
+            </li>
+            <li class="nav__item nav__item_inline">
+              <a class="nav__link nav__link-mobile" href="#portfolio">Портфолио</a>
+            </li>
+            <li class="nav__item nav__item_inline">
+              <a class="nav__link nav__link-mobile" href="#price">Стоимость</a>
+            </li>
+          </ul>
+        </nav>
+        <a class="header__phone" href="tel:+7(123)456-78-90">+7 (123) 456-78-90</a>
+        <button class="header__callback border-btn modal-open">Заказать звонок</button>
+      </div>  
+    </header>
+
+    <section id="home" class="home">
+      <div class="home__bg"></div>
+      <span class="home__flying-tag brace"></span>
+      <span class="home__flying-tag octo"></span>
+      <span class="home__flying-tag div1"></span>
+      <span class="home__flying-tag div2"></span>
+      <span class="home__flying-tag code"></span>
+      <span class="home__flying-tag code-big"></span>
+      <div class="container home__container">
+        <div class="home__info"> 
+          <h1 class="home__name">Дмитрий Алексеев</h1>
+          <p class="home__profile">Frontend-разработчик и веб-верстальщик</p>
+          <button class="home__btn fill-btn" href="#service">Узнать больше</button>
+        </div>
+        <img class="home__photo" src="img/man1.png" alt="Человек">
+      </div>
+    </section>
+
+    <section id="service" class="service">
+      <div class="container">
+        <h2 class="section-title service__title">Что я делаю</h2>
+        <div class="service__container">
+          <div class="service__item imposition">
+            <p class="service__item-description">Вёрстка лендинг-страниц<br>и сайтов любой сложности</p>
+          </div>
+          <div class="service__item responsive">
+            <p class="service__item-description">Адаптивная вёрстка под все<br>браузеры и устройства</p>
+          </div>
+          <div class="service__item frontend">
+            <p class="service__item-description">Frontend-разработка<br>и программирование</p>
+          </div>
+          <div class="service__item refactoring">
+            <p class="service__item-description">Исправление и доработка<br>существующей вёрстки</p>
+          </div>
+        </div>
+        <a class="service__link fill-btn" href="#price">Узнать стоимость</a>
+      </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+      <div class="container portfolio__container">
+        <h2 class="section-title portfolio__title">Примеры моих работ</h2>
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img class="swiper-slide__img" src="img/slide-1.png" alt="">
+              <h4 class="swiper-slide__description">Сайт психолога Веры Антоновой</h4>
+            </div>
+            <div class="swiper-slide">
+              <img class="swiper-slide__img" src="img/slide-2.png" alt="">
+              <h4 class="swiper-slide__description">Сайт магазина детской одежды</h4>
+            </div>
+            <div class="swiper-slide">
+              <img class="swiper-slide__img" src="img/slide-3.png" alt="">
+              <h4 class="swiper-slide__description">Сайт магазина &laquo;Рыболов&raquo;</h4>
+            </div>
+            <div class="swiper-slide">
+              <img class="swiper-slide__img" src="img/slide-2.png" alt="">
+              <h4 class="swiper-slide__description">Сайт магазина детской одежды</h4>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <button class="swiper__control swiper__control_arrow-left"></button>
+        <button class="swiper__control swiper__control_arrow-right"></button>
+      </div>
+      <a class="portfolio__link fill-btn modal-open" href="">Заказать проект</a>
+    </section>
+
+    <section id="price" class="price">
+      <span class="price__flying-tag brace1-white"></span>
+      <span class="price__flying-tag code-white"></span>
+      <span class="price__flying-tag octo-white"></span>
+      <span class="price__flying-tag div-white"></span>
+      <span class="price__flying-tag brace2-white"></span>
+      <div class="container price__container">
+        <h2 class="price__title">Адаптивная вёрстка под&nbsp;все&nbsp;устройства и&nbsp;браузеры от&nbsp;1000&nbsp;рублей всего за&nbsp;4&nbsp;часа.*</h2>
+        <p class="price__description">Срок и стоимость могут отличаться от&nbsp;заявленных и&nbsp;рассчитываются индивидуально, в&nbsp;зависимости от&nbsp;сложности задач.</p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer__container">
+        <nav class="footer__left nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link " href="#service">Услуги</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#portfolio">Портфолио</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#price">Стоимость</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="footer__center">
+          <a class="footer__phone" href="tel:+7(123)456-78-90"><i class="fas fa-phone-alt"></i>+7 (123) 456-78-90</a>
+          <a class="footer__email" href="mailto:mail@mail.ru"><i class="fas fa-envelope"></i>dmitry@alekseev.com</a>
+        </div>
+        <div class="footer__right">
+          <button class="footer__callback border-btn modal-open">Заказать звонок</button>
+          <ul class="footer__social-list social-list">
+            <li class="social-list__item">
+              <a class="social-list__link vk" href="#" aria-label="Вконтакте"></a>
+            </li>
+            <li class="social-list__item">
+              <a class="social-list__link fb" href="#" aria-label="Facebook"></a>
+            </li>
+            <li class="social-list__item">
+              <a class="social-list__link tw" href="#" aria-label="Twitter"></a>
+            </li>
+            <li class="social-list__item">
+              <a class="social-list__link in" href="#" aria-label="Instagram"></a>
+            </li>
+          </ul>
+        </div>
+      </div>  
+    </footer>
+    
+    <div class="copyright">
+      <p class="copyright__text">&copy;Дмитрий Алексеев, 2016 - 2018</p>
+    </div>
+
+    <div class="modal-container">
+      <div class="modal-callback">
+        <button class="modal-close" type="button">Закрыть</button>
+        <h2 class="modal-callback__title">Закажите обратный&nbsp;звонок</h2>
+        <p class="modal-callback__description">Оставьте свои контактые данные<br> и я перезвоню Вам в ближайшее время</p>
+        <form class="modal-callback__form form">
+          <input type="hidden" name="project_name" value="Форма заказа">
+          <input type="hidden" name="admin_email" value="san362006@rambler.ru">
+          <input type="hidden" name="form_subject" value="Заказ звонка">
+          <label class="form__input">
+            <span>Ваше имя<sup>*</sup></span>
+            <input type="text" name="Имя">
+          </label>
+          <label class="form__input">
+            <span>Ваш телефон<sup>*</sup></span>
+            <input type="tel" name="Телефон" placeholder="+7 (___) ___-__-__">
+          </label>
+          <p class="form__req"><sup>* </sup>Поля, отмеченные звездочкой, обязательны для заполнения</p>
+          <button class="form__callback fill-btn" type="submit">Заказать звонок</button>
+          <p class="form__police">Нажимая на кнопку, Вы подтверждаете, что согласны на обработку персональных данных и ознакомлены с политикой конфиденциальности</p>
+        </form>
+      </div>
+    </div>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/jquery.inputmask.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
