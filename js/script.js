@@ -147,7 +147,7 @@ var mySwiper = new Swiper('.swiper-container', {
   speed: 500,
   slidesPerView: 3,
   spaceBetween: 30,
-  // loop: 'true',
+  loop: 'true',
   
   navigation: {
     nextEl: '.swiper__control_arrow-right',
@@ -168,7 +168,8 @@ var mySwiper = new Swiper('.swiper-container', {
 
     1280: {
       slidesPerView: 2,
-      spaceBetween: 30
+      spaceBetween: 30,
+      loop: 'false'
     }
   },
 
