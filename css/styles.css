@@ -1975,14 +1975,14 @@ button {
 }
 
 .modal-callback__title {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   text-align: center;
-  font-size: 24px;
+  font-size: 22px;
   text-transform: uppercase;
 }
 
 .modal-callback__description {
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   text-align: center;
   font-size: 14px;
   color: #8993ad;
@@ -2030,7 +2030,7 @@ sup {
 
 .form__callback {
   width: 280px;
-  height: 58px;
+  height: 55px;
   margin-bottom: 20px;
   border: none;
   cursor: pointer;
