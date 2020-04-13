@@ -489,9 +489,11 @@ button {
   margin-bottom: 46px;
 }
 
-.home__btn {
+.home__link {
+  display: block;
   width: 270px;
   height: 60px;
+  line-height: 60px;
 }
 
 .home__photo {
@@ -674,9 +676,10 @@ button {
     font-size: 54px;
   }
 
-  .home__btn {
+  .home__link {
     width: 320px;
-    height: 67px;
+    height: 68px;
+    line-height: 68px;
   }
 
   .home__photo {
@@ -813,9 +816,11 @@ button {
     margin-right: 0;
   }
 
-  .home__btn {
+  .home__link {
+    display: block;
     width: 270px;
     height: 60px;
+    line-height: 60px;
   }
 }
 
@@ -892,8 +897,12 @@ button {
     text-align: center;
   }
 
+  .home__link {
+    margin: 0 auto;
+  }
+
   .home__photo {
-    margin-top: 56px;
+    margin-top: 57px;
     filter: drop-shadow(20px 0 25px rgba(83, 49, 49, .3));
   }
 }
@@ -1006,9 +1015,10 @@ button {
     line-height: 24px;
   }
 
-  .home__btn {
+  .home__link {
     width: 280px;
     height: 55px;
+    line-height: 55px;
   }
 
   .home__photo {
@@ -1790,7 +1800,7 @@ button {
   }  
 
   .footer__callback {
-    margin-right: -20px;
+    margin-right: 0;
   }
 }
 
