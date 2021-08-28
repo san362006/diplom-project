@@ -7,7 +7,7 @@ $(function(){
   let $mobileControls = $('.mobile-controls');
 
 
-  //Плавный переход по якорной ссылке
+  // Плавный переход по якорной ссылке
   $('a[href^="#"]').on('click', function(evt) {
     evt.preventDefault();
     var target = $(this).attr("href");
@@ -37,7 +37,7 @@ $(function(){
     $body.removeAttr('data-position');
   }
 
-  //Функция показа мобильного меню
+  // Функция показа мобильного меню
   function showMenu() {
     $mobileContainer.addClass('nav-mobile-open');
     $mobileMenu.animate({left: 0});
@@ -46,7 +46,7 @@ $(function(){
     disableScroll();
   }
 
-  //Функция скрытия мобильного меню
+  // Функция скрытия мобильного меню
   function hideMenu() {
     $mobileContainer.removeClass('nav-mobile-open');
     $mobileMenu.animate({left: '-320px'});
@@ -63,7 +63,7 @@ $(function(){
     })
   }
 
-  //Открываем-закрываем мобильное меню
+  // Открываем-закрываем мобильное меню
   $mobileControls.click(function(){
     if (this.className == 'mobile-controls hamburger') {
       showMenu();
@@ -72,7 +72,7 @@ $(function(){
     }
   });
 
-  //Закрываем меню по клику на пункт мобильного меню
+  // Закрываем меню по клику на пункт мобильного меню
   $('.nav__link-mobile').click(function(){
     if ($mobileControls.css('display') !== 'none'){
       hideMenu();
